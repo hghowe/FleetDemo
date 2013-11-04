@@ -34,10 +34,13 @@ public class FleetDemo {
             b.setMyFleet(myFleet); // ...and telling the bug about the fleet.
         }
         
-        // gratuitous rock for pedagogical reasons....
-        naWorld.add(new Rock()); // this doesn't belong in the fleet, so I'm
-                                // only adding it to the world.
-        
+        // gratuitous rock2 for pedagogical reasons....
+        for (int j=0; j<4; j++)
+        {
+            naWorld.add(new Rock());// this doesn't belong in the fleet, so I'm
+                                    // only adding it to the world.
+        } 
+                                
         naWorld.show();
     }
 }
