@@ -25,7 +25,7 @@ public class FleetDemo {
         naWorld.addRecipient(myFleet); // tell the world to notify myFleet 
                                      //   whenever a new step() starts.
         
-        for (int i=0; i<8; i++)
+        for (int i=0; i<12; i++)
         {
             BounceBug b = new BounceBug();
             naWorld.add(b);
